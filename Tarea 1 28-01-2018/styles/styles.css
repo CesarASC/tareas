@@ -1,0 +1,60 @@
+
+p{
+	font-family:arial;
+}
+
+.tamimg{
+	width:350px;
+	height:350px;
+}
+
+.TexAzul{
+	color:blue;
+}
+
+.TexRojo{
+	color:red;
+}
+
+.TexCentro{
+	text-align:center;
+}
+
+.TexTam160{
+	font-size:160%;
+}
+
+#titulos{
+	margin-left:30px;
+}
+
+#imagen1{
+	float:bottom;
+	height:300px;
+	margin:30px;
+}
+#seccion1{
+	float:left;
+	width:300px;
+	height:300px;
+	margin:30px;
+}
+#seccion2{
+	float:left;
+	width:350px;
+	height:350px;
+	margin:30px;
+}
+#seccion3{
+	float:left;
+	width:300px;
+	height:300px;
+	margin:30px;
+}
+#seccion4{
+	float:left;
+	width:300px;
+	height:300px;
+	margin:30px;
+
+}
