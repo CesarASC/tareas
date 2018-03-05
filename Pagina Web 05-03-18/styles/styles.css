@@ -1,0 +1,158 @@
+body{
+	background-color:orange;
+}
+
+header{
+	border:2px solid black;
+	background-color:yellow;
+}
+
+h1, h2, h3{
+	font-family:arial;
+	text-align:center;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    background-color:black;
+    overflow:hidden;
+}
+
+nav li{
+   	float:left;
+}
+
+nav li a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:15px;
+    text-decoration:none;
+    font-family:arial;
+}
+
+nav li a:hover{
+    background-color:grey;
+}
+
+aside{
+  	float:left;
+}
+
+aside ul{
+	margin-top:10px;
+  	padding:0;
+  	list-style-type:none;
+  	background-color:black;
+  
+}
+
+aside li a{
+    display:block;
+    color:white;
+    padding:15px;
+    text-decoration:none;
+    font-family:arial;
+}
+
+aside li a:hover{
+    background-color:grey;
+}
+
+p{
+	font-family:arial;
+}
+
+#foto{
+	text-align:center;
+	float:bottom;
+	margin:auto;
+	padding:10px;
+	width:30%;	
+}
+
+.imagengrande{
+	width:350px;
+	height:350px;
+}
+
+.icono{
+	width:30px;
+	height:30px;
+}
+
+#informacion{
+	border:2px solid black;
+	float:bottom;
+	margin:auto;
+	height:750px;
+	background-color:yellow;
+}
+
+#biografia{
+	margin:5px 20px;
+	float:bottom;
+}
+
+#estudios{
+	border:2px solid black;
+	float:left;
+	width:300px;
+	height:400px;
+	margin:20px;
+	padding:5px;
+	background-color:yellow;
+}
+
+#hobbies{
+	border:2px solid black;
+	float:left;
+	width:360px;
+	height:650px;
+	margin:20px;
+	padding:5px;
+	background-color:yellow;
+}
+#carrera{
+	border:2px solid black;
+	float:left;
+	width:300px;
+	height:250px;
+	margin:20px;
+	padding:5px;
+	background-color:yellow;
+}
+#materias{
+	border:2px solid black;
+	float:left;
+	width:300px;
+	height:300px;
+	margin:20px;
+	padding:5px;
+	background-color:yellow;
+}
+
+.contenidobiografia{
+	text-align:center;
+}
+
+.contenido{
+	text-align:justify;
+}
+
+footer{
+	border:2px solid black;
+	margin-top:20px;
+    height:120px;
+    background-color:yellow;
+}
+
+#contactos{
+	float:left;
+	text-align:center;
+    margin:0 5px 0 5px;
+    width:350px;
+    padding-left:10px;
+}

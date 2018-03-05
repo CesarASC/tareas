@@ -1,20 +1,70 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="keywords" content="Programación,Web,HTML,HTML5,CSS">
-		<meta charset = "UTF-8">
+		<title>Mi pagina web</title>
+		<meta name="keywords" content="Programación,Web,HTML,HTML5,CSS,Unicaribe,IDeIO">
+		<meta name="author" content="César Sánchez">
+		<meta name="description" content="Biografía/Tarea de programación web">
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="styles/styles.css">
-		<title>Tarea 1</title>
 	</head>
 	<body>
 		<header>
 			<h1>César Alfredo Sánchez Cen</h1>
 			<h2>160300142</h2>
 		</header>
-		<section id="fotos">
-			<img class="tamimgbig" src="images/foto.jpg"/>
+
+		<nav>
+    		<ul>
+    			<li>
+    				<a href="#foto">Fotografía</a>
+    			</li>
+	    		<li>
+	    			<a href="#informacion">Biografia</a>
+	    		</li>
+	    		<li>
+	    			<a href="#estudios">Estudios</a>
+	    		</li>
+	    		<li>
+	    			<a href="#hobbies">Hobbies</a>
+	    		</li>
+	    		<li>
+	    			<a href="#carrera">Carrera</a>
+	    		</li>
+	    		<li>
+	    			<a href="#materias">Materias</a>
+	    		</li>
+	    		<li>
+	    			<a href="#contactos">Contacto</a>
+	    		</li>
+    		</ul>    
+    	</nav>
+
+		<aside>
+    		<ul>
+    			<li>
+    				<a href="http://unicaribe.mx/">Universidad del Caribe</a>
+    			</li>
+	    		<li>
+	    			<a href="http://es.fifa.com/">Página de la FIFA</a>
+	    		</li>
+	    		<li>
+	    			<a href="https://es.wikipedia.org/wiki/Videojuego_de_disparos_en_primera_persona">Juegos FPS</a>
+	    		</li>
+	    		<li>
+	    			<a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n">Programación</a>
+	    		</li>
+    		</ul>    
+    	</aside>
+
+		<section id="foto">
+			<img class="imagengrande" src="images/foto.jpg"/>
 		</section>
+
 		<section id="informacion">
+			<article id="biografia">
+				<p class="contenidobiografia">Nací en Cancún un 27 de agosto de 1998, tengo 19 años, estudio el cuarto semestre de IDeIO en la Universidad del Caribe y espero algún día ser parte del desarrollo de un videojuego muy grande.</p>
+			</article>
 			<article id="estudios">
 				<h2>Mis estudios antes de la universidad</h2>
 				<h3>La secundaria</h3>
@@ -26,7 +76,9 @@
 				<h2>Mis hobbies</h2>
 					<p class="contenido">Siempre me ha gustado el Futbol, durante gran parte de mi adolescencia practiqué este deporte en la escuela y en un club llamado Tigrillos, era Defensa Lateral Derecho, y aunque no era muy bueno, cuando jugaba me sentía bien.</p>
 					<p class="contenido">Me gustan mucho los videojuegos, especialmente los Shooters, ahora mismo los juegos que más juego son <a href="http://store.steampowered.com/app/730/CounterStrike_Global_Offensive/">CS:GO</a> y <a href="http://store.steampowered.com/app/578080/PLAYERUNKNOWNS_BATTLEGROUNDS/">PUBG</a>, pero he jugado una gran cantidad de juegos anteriormente de todos los tipos.</p>
-					<center> <img class="tamimgbig" src="images/hobbie.jpg"/> </center>
+					<center>
+						<img class="imagengrande" src="images/hobbie.jpg"/>
+					</center>
 			</article>
 			<article id="carrera">
 				<h2>La carrera: IDeIO</h2>
@@ -37,6 +89,7 @@
 					<p class="contenido">Las materias que me han gustado son todas las referentes a la programación, como Algoritmos, Diseño de patrones, POO, POSIX, Organización y diseño de computadoras, Programación Web, y además me gustan las matemáticas, ya que me gusta resolver problemas, aunque no sea muy bueno o muy rápido.</p>
 			</article>
 		</section>
+
 		<footer>
 			<section id="contactos">
 				<h2>Correo</h2>
@@ -49,15 +102,16 @@
 			<section id="contactos">
 				<h2>Facebook</h2>
 				<a href="https://www.facebook.com/cesarsc14">
-					<img class="tamimgsmall", src="images\facebook.png">
+					<img class="icono", src="images\facebook.png">
 				</a>
 			</section>
 			<section id="contactos">
 				<h2>Twitter</h2>
 				<a href="https://twitter.com/CesarASC14">
-					<img class="tamimgsmall", src="images\twitter.jpg">
+					<img class="icono", src="images\twitter.jpg">
 				</a>
 			</section>
 		</footer>
+
 	</body>
 </html>
